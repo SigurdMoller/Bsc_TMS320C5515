@@ -1,0 +1,435 @@
+TMS320C55x C/C++ Optimizer              v4.4.1
+Build Number 1MC2P-KDADEMDK-RTARQ-WAR-ZAB3T_U_U_R
+
+		======File-level Analysis Summary======
+
+
+extern int _AIC3204_rset() is called from 44 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	USBSTK5515_I2C_write() (1 times)
+
+extern int _ChoosedB() is called from 0 sites in this file.
+    It appears to be inlineable (size = 182 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	draw_13() (1 times)
+	draw_12() (1 times)
+	draw_11() (1 times)
+	draw_10() (1 times)
+	draw_9() (1 times)
+	draw_8() (1 times)
+	draw_7() (1 times)
+	draw_6() (1 times)
+	draw_5() (1 times)
+	draw_4() (1 times)
+	draw_3() (1 times)
+	draw_2() (1 times)
+	draw_1() (1 times)
+
+extern int _OSD9616_multiSend() is called from 0 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	USBSTK5515_I2C_write() (1 times)
+
+extern int _OSD9616_send() is called from 82 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	USBSTK5515_I2C_write() (1 times)
+
+extern void _WipeBand() is called from 0 sites in this file.
+    It appears to be inlineable (size = 20 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (5 times)
+
+extern int _draw_1() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_10() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+extern int _draw_11() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+extern int _draw_12() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+extern int _draw_13() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+extern int _draw_2() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_3() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_4() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_5() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_6() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_7() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_8() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+extern int _draw_9() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+extern int _main() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	oled_test() (1 times)
+	USBSTK5515_I2C_close() (1 times)
+	USBSTK5515_wait() (2 times)
+	AIC3204_rset() (44 times)
+	USBSTK5515_I2C_init() (1 times)
+	USBSTK5515_init() (1 times)
+
+extern int _oled_test() is called from 1 sites in this file.
+    It appears to be inlineable (size = 263 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	USBSTK5515_I2C_close() (1 times)
+	USBSTK5515_I2C_write() (8 times)
+	OSD9616_send() (13 times)
+	USBSTK5515_GPIO_setOutput() (1 times)
+	USBSTK5515_GPIO_setDirection() (1 times)
+	USBSTK5515_I2C_init() (1 times)
+
+
+These functions may be recursive:
+	ChoosedB()
+	OSD9616_multiSend()
+	WipeBand()
+	draw_1()
+	draw_10()
+	draw_11()
+	draw_12()
+	draw_13()
+	draw_2()
+	draw_3()
+	draw_4()
+	draw_5()
+	draw_6()
+	draw_7()
+	draw_8()
+	draw_9()
+	main()
+	AIC3204_rset()
+	oled_test()
+	OSD9616_send()
+
+Making this function inlineable: draw_8()
+
+Making this function inlineable: draw_7()
+
+Making this function inlineable: draw_6()
+
+Making this function inlineable: draw_5()
+
+Making this function inlineable: draw_4()
+
+Making this function inlineable: draw_3()
+
+Making this function inlineable: draw_2()
+
+Making this function inlineable: draw_1()
+
+Making this function inlineable: WipeBand()
+
+These external functions are called but not defined here:
+	USBSTK5515_GPIO_setDirection()
+	USBSTK5515_GPIO_setOutput()
+	USBSTK5515_init()
+	USBSTK5515_I2C_init()
+	USBSTK5515_wait()
+	USBSTK5515_I2C_close()
+	USBSTK5515_I2C_write()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern int _OSD9616_send() is called from 82 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _oled_test() is called from 1 sites in this file.
+    It appears to be inlineable (size = 263 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (13 times)
+
+There are 26 memory accesses with 54 dependences.
+
+
+==============================================================================
+
+extern int _AIC3204_rset() is called from 44 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _main() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	AIC3204_rset() (44 times)
+	oled_test() (1 times)
+
+There are 33 memory accesses with 394 dependences.
+
+
+==============================================================================
+
+extern int _draw_9() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_8() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_7() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_6() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_5() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_4() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_3() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_2() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_13() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_12() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_11() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_10() is called from 1 sites in this file.
+    It appears to be inlineable (size = 30 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (8 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _draw_1() is called from 1 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (3 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _WipeBand() is called from 0 sites in this file.
+    It appears to be inlineable (size = 20 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	OSD9616_send() (5 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _OSD9616_multiSend() is called from 0 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern int _ChoosedB() is called from 0 sites in this file.
+    It appears to be inlineable (size = 182 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	draw_1() (1 times)
+	draw_2() (1 times)
+	draw_3() (1 times)
+	draw_4() (1 times)
+	draw_5() (1 times)
+	draw_6() (1 times)
+	draw_7() (1 times)
+	draw_8() (1 times)
+	draw_9() (1 times)
+	draw_10() (1 times)
+	draw_11() (1 times)
+	draw_12() (1 times)
+	draw_13() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==
